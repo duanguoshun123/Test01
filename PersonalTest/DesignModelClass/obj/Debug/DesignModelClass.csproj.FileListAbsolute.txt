@@ -1,0 +1,7 @@
+D:\MyTestProject\PersonalTest\DesignModelClass\bin\Debug\DesignModelClass.dll
+D:\MyTestProject\PersonalTest\DesignModelClass\bin\Debug\DesignModelClass.pdb
+D:\MyTestProject\PersonalTest\DesignModelClass\obj\Debug\DesignModelClass.dll
+D:\MyTestProject\PersonalTest\DesignModelClass\obj\Debug\DesignModelClass.pdb
+D:\MyTestProject\PersonalTest\DesignModelClass\bin\Debug\DeepShallowCopy.dll
+D:\MyTestProject\PersonalTest\DesignModelClass\bin\Debug\DeepShallowCopy.pdb
+D:\MyTestProject\PersonalTest\DesignModelClass\obj\Debug\DesignModelClass.csprojResolveAssemblyReference.cache

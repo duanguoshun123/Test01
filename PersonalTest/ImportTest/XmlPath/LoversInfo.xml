@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+  <add ExportFieldName="姓名"                   PropertyName="Name"                                       DataType="System.String"/>
+  <add ExportFieldName="手机号码"               PropertyName="PhoneNumber"                                DataType="System.String"/>
+  <add ExportFieldName="性别"                   PropertyName="Sex"                                        DataType="System.String"/>
+  <add ExportFieldName="民族"                   PropertyName="Nation"                                     DataType="System.String"/>
+  <add ExportFieldName="出生日期"               PropertyName="Birthday"                                   DataType="System.String"/>
+  <add ExportFieldName="身份证号码"             PropertyName="Cardid"                                     DataType="System.String"/>
+  <add ExportFieldName="恋人姓名"               PropertyName="LoversName"                                 DataType="System.String"/>
+</module>

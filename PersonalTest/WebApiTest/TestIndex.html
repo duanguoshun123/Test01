@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Product App</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div>
+        <h2>All Products</h2>
+        <ul id="products" />
+    </div>
+    <div>
+        <h2>Search by ID</h2>
+        <input type="text" id="prodId" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <input type="button" value="Add" onclick="add();" />
+        <input type="button" value="Update" onclick="update(1);" />
+        <input type="button" value="Delete" onclick="deletes(3);" />
+        <p id="product" />
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+        var uri = '/products';
+
+        $(document).ready(function () {
+            // Send an AJAX request
+            $.getJSON(uri + "/GetAllProducts")
+                .done(function (data) {
+                    // On success, 'data' contains a list of products.
+                    $.each(data, function (key, item) {
+                        // Add a list item for the product.
+                        $('<li>', { text: formatItem(item) }).appendTo($('#products'));
+                    });
+                });
+        });
+
+        function formatItem(item) {
+            return item.Name + ': $' + item.Price;
+        }
+
+        function find() {
+            var id = $('#prodId').val();
+            $.getJSON(uri + '/GetProduct?id=' + id)
+                .done(function (data) {
+                    $('#product').text(formatItem(data));
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    $('#product').text('Error: ' + err);
+                });
+        }
+        //新增
+        function add() {
+            $.ajax({
+                url: uri + "/PostProduct",
+                type: "POST",
+                data: { "Id": 4, "Name": "test", "Category": "Parry", "Price": 239 },
+                success: function (data) { alert(JSON.stringify(data)); }
+            });
+        }
+
+        //更新
+        function update(id) {
+            $.ajax({
+                url: uri + "/PutProduct?id=" + id,
+                type: "Put",
+                data: { "Id": 1, "Name": "moditest", "Category": "Parry", "Price": 89 },
+                success: function (data) { alert(JSON.stringify(data)); }
+            });
+        }
+
+        //删除
+        function deletes(id) {
+            $.ajax({
+                url: uri + "/DeleteProduct?id=" + id,
+                type: "DELETE",
+                success: function (data) { alert(data); }
+            });
+        }
+    </script>
+</body>
+</html>

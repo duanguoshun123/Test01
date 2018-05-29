@@ -1,0 +1,96 @@
+﻿
+    <!DOCTYPE html>
+    <html>
+    <head runat="server">
+        <meta name="viewport" content="width=device-width" />
+        <title>测试Web Api - Jquery调用</title>
+        <script src="../../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend>
+                    测试Web Api
+                </legend>
+                <a href="javascript:add()">添加(post)</a>
+                <a href="javascript:update(1)">更新(put)</a>
+                <a href="javascript:deletes(1)">删除(delete)</a>
+                <a href="javascript:getall()">列表(Get)</a>
+                <a href="javascript:getone()">实体(Get)</a>
+            </fieldset>
+            <table id="products">
+                <thead>
+                    <tr><th>ID</th><th>Name</th><th>Category</th><th>Price</th></tr>
+                </thead>
+                <tbody id="looptr"></tbody>
+            </table>
+            <script type="text/javascript">
+
+        $(function () {
+            getall();
+        });
+
+        //获取列表
+        function getall() {
+            var str = "";
+            $.getJSON("/AsyncAndSyncTestApi/products", function (products) {
+                alert(JSON.stringify(products));
+                $.each(products, function (index, product) {
+                    str += "<tr>"
+                    str += "<td>" + products[index].Id + "</td>";
+                    str += "<td>" + products[index].Name + "</td>";
+                    str += "<td>" + products[index].Category + "</td>";
+                    str += "<td>" + products[index].Price + "</td>";
+                    str += "<tr>"
+                });
+                $("#looptr").html(str);
+            });
+        }
+
+        //获取某条信息
+        function getone() {
+            var str = "";
+            $.getJSON("/AsyncAndSyncTestApi/products/1", function (product) {
+                alert(JSON.stringify(product));
+                str += "<tr>"
+                str += "<td>" + product.Id + "</td>";
+                str += "<td>" + product.Name + "</td>";
+                str += "<td>" + product.Category + "</td>";
+                str += "<td>" + product.Price + "</td>";
+                str += "<tr>"
+                $("#looptr").html(str);
+            });
+        }
+
+        //新增
+        function add() {
+            $.ajax({
+                url: "/AsyncAndSyncTestApi/products/",
+                type: "POST",
+                data: { "Id": 4, "Name": "test", "Category": "Parry", "Price": 239 },
+                success: function (data) { alert(JSON.stringify(data)); }
+            });
+        }
+
+        //更新
+        function update(id) {
+            $.ajax({
+                url: "/AsyncAndSyncTestApi/products?id=4",
+                type: "Put",
+                data: { "Id": 1, "Name": "moditest", "Category": "Parry", "Price": 89 },
+                success: function (data) { alert(JSON.stringify(data)); }
+            });
+        }
+
+        //删除
+        function deletes(id) {
+            $.ajax({
+                url: "/AsyncAndSyncTestApi/products/4",
+                type: "DELETE",
+                success: function (data) { alert(data); }
+            });
+        }
+            </script>
+        </div>
+    </body>
+</html>

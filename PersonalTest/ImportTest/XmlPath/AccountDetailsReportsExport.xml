@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+  <add ExportFieldName="回单登记号"                   PropertyName="ReceiptRegisterNumber"                                   DataType="System.String"/>
+  <add ExportFieldName="年度"                         PropertyName="Year"                                DataType="System.String"/>
+  <add ExportFieldName="公司代码"                     PropertyName="Corporation"                                        DataType="System.String"/>
+  <add ExportFieldName="公司名称"                     PropertyName="CorporationName"                                     DataType="System.String"/>
+  <add ExportFieldName="登记日期"                     PropertyName="RegisterDate"                                   DataType="System.DateTime?"/>
+  <add ExportFieldName="交易日期"                     PropertyName="TradeDate"                                     DataType="System.DateTime?"/>
+  <add ExportFieldName="收付属性"                     PropertyName="RevenueAndExpenditureAttribute"                          DataType="System.String"/>
+  <add ExportFieldName="币种"                         PropertyName="Currency"                                 DataType="System.String"/>
+  <add ExportFieldName="交易金额"                     PropertyName="TradeAmount"                                 DataType="System.decimal?"/>
+  <add ExportFieldName="我方账号"                     PropertyName="OurAccount"                                 DataType="System.String"/>
+  <add ExportFieldName="我方开户户名"                 PropertyName="OurOpenAccountName"                                 DataType="System.String"/>
+  <add ExportFieldName="我方银行户名"                 PropertyName="OurBankAccountName"                                 DataType="System.String"/>
+  <add ExportFieldName="我方所属银行"                 PropertyName="OurBankAttribute"                                 DataType="System.String"/>
+  <add ExportFieldName="我方银行类别"                 PropertyName="OurBankType"                                 DataType="System.String"/>
+  <add ExportFieldName="我方银行经营分类"             PropertyName="OurBankManageClass"                                 DataType="System.String"/>
+  <add ExportFieldName="对方银行账号"                 PropertyName="OtherBankAccount"                                 DataType="System.String"/>
+  <add ExportFieldName="对方银行户名"                 PropertyName="OtherBankAccountName"                                 DataType="System.String"/>
+  <add ExportFieldName="对方开户银行"                 PropertyName="OtherOpenAccountBank"                                 DataType="System.String"/>
+  <add ExportFieldName="摘要"                         PropertyName="Summary"                                 DataType="System.String"/>
+</module>

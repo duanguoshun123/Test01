@@ -1,0 +1,10 @@
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\bin\Debug\DesignModelApplicatio.exe.config
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\bin\Debug\DesignModelApplicatio.exe
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\bin\Debug\DesignModelApplicatio.pdb
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\obj\Debug\DesignModelApplication.csprojResolveAssemblyReference.cache
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\obj\Debug\DesignModelApplicatio.exe
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\obj\Debug\DesignModelApplicatio.pdb
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\bin\Debug\DesignModelClass.dll
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\bin\Debug\DeepShallowCopy.dll
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\bin\Debug\DesignModelClass.pdb
+D:\MyTestProject\PersonalTest\DesignModelApplicatio\bin\Debug\DeepShallowCopy.pdb

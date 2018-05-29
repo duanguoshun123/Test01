@@ -1,0 +1,9 @@
+D:\MyTestProject\PersonalTest\MyTest\bin\Debug\MyTest.dll
+D:\MyTestProject\PersonalTest\MyTest\bin\Debug\MyTest.pdb
+D:\MyTestProject\PersonalTest\MyTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\MyTestProject\PersonalTest\MyTest\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\MyTestProject\PersonalTest\MyTest\obj\Debug\MyTest.csprojResolveAssemblyReference.cache
+D:\MyTestProject\PersonalTest\MyTest\obj\Debug\MyTest.dll
+D:\MyTestProject\PersonalTest\MyTest\obj\Debug\MyTest.pdb
+D:\MyTestProject\PersonalTest\MyTest\bin\Debug\DesignModelClass.dll
+D:\MyTestProject\PersonalTest\MyTest\bin\Debug\DesignModelClass.pdb

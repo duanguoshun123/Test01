@@ -1,0 +1,5 @@
+D:\MyTestProject\PersonalTest\Common\bin\Debug\Common.dll
+D:\MyTestProject\PersonalTest\Common\bin\Debug\Common.pdb
+D:\MyTestProject\PersonalTest\Common\obj\Debug\Common.dll
+D:\MyTestProject\PersonalTest\Common\obj\Debug\Common.pdb
+D:\MyTestProject\PersonalTest\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

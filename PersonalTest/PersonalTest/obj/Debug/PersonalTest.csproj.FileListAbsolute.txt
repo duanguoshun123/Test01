@@ -1,0 +1,10 @@
+D:\MyTestProject\PersonalTest\PersonalTest\bin\Debug\PersonalTest.exe.config
+D:\MyTestProject\PersonalTest\PersonalTest\bin\Debug\PersonalTest.exe
+D:\MyTestProject\PersonalTest\PersonalTest\bin\Debug\PersonalTest.pdb
+D:\MyTestProject\PersonalTest\PersonalTest\obj\Debug\PersonalTest.exe
+D:\MyTestProject\PersonalTest\PersonalTest\obj\Debug\PersonalTest.pdb
+D:\MyTestProject\PersonalTest\PersonalTest\bin\Debug\DeepShallowCopy.dll
+D:\MyTestProject\PersonalTest\PersonalTest\bin\Debug\DeepShallowCopy.pdb
+D:\MyTestProject\PersonalTest\PersonalTest\obj\Debug\PersonalTest.csprojResolveAssemblyReference.cache
+D:\MyTestProject\PersonalTest\PersonalTest\bin\Debug\DesignModelClass.dll
+D:\MyTestProject\PersonalTest\PersonalTest\bin\Debug\DesignModelClass.pdb

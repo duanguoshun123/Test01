@@ -1,0 +1,11 @@
+D:\MyTestProject\PersonalTest\ExcelImportHelper\bin\Debug\ExcelImportHelper.dll
+D:\MyTestProject\PersonalTest\ExcelImportHelper\bin\Debug\ExcelImportHelper.pdb
+D:\MyTestProject\PersonalTest\ExcelImportHelper\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\MyTestProject\PersonalTest\ExcelImportHelper\bin\Debug\NPOI.dll
+D:\MyTestProject\PersonalTest\ExcelImportHelper\bin\Debug\NPOI.OOXML.dll
+D:\MyTestProject\PersonalTest\ExcelImportHelper\bin\Debug\NPOI.OpenXml4Net.dll
+D:\MyTestProject\PersonalTest\ExcelImportHelper\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\MyTestProject\PersonalTest\ExcelImportHelper\bin\Debug\NPOI.xml
+D:\MyTestProject\PersonalTest\ExcelImportHelper\obj\Debug\ExcelImportHelper.dll
+D:\MyTestProject\PersonalTest\ExcelImportHelper\obj\Debug\ExcelImportHelper.pdb
+D:\MyTestProject\PersonalTest\ExcelImportHelper\obj\Debug\ExcelImportHelper.csprojResolveAssemblyReference.cache

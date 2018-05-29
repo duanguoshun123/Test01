@@ -1,0 +1,15 @@
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\bin\Debug\CodeOnlyDemo.exe.config
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\bin\Debug\CodeOnlyDemo.exe
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\bin\Debug\CodeOnlyDemo.pdb
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\bin\Debug\EntityFramework.dll
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\bin\Debug\EntityFramework.xml
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\obj\Debug\CodeOnlyDemo.csprojResolveAssemblyReference.cache
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\obj\Debug\CodeOnlyDemo.CustomerDemo.resources
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\obj\Debug\CodeOnlyDemo.OrderDemo.resources
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\obj\Debug\CodeOnlyDemo.Properties.Resources.resources
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\obj\Debug\CodeOnlyDemo.csproj.GenerateResource.Cache
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\obj\Debug\CodeOnlyDemo.exe
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\obj\Debug\CodeOnlyDemo.pdb
+D:\MyTestProject\PersonalTest\CodeOnlyDemo\obj\Debug\CodeOnlyDemo.CustomerOrderDemo.resources

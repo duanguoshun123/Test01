@@ -1,0 +1,5 @@
+D:\MyTestProject\PersonalTest\DeepShallowCopy\bin\Debug\DeepShallowCopy.dll
+D:\MyTestProject\PersonalTest\DeepShallowCopy\bin\Debug\DeepShallowCopy.pdb
+D:\MyTestProject\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.csprojResolveAssemblyReference.cache
+D:\MyTestProject\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.dll
+D:\MyTestProject\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.pdb

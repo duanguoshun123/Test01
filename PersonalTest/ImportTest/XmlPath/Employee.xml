@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+  <add firstHeaderRow="1"                  lastHeaderRow="1"                                         sheetCount="1"/>
+  <add headerText="姓名"                   propertyName="Name"                                       dataType="System.String"/>
+  <add headerText="手机号码"               propertyName="PhoneNumber"                                dataType="System.String"/>
+  <add headerText="性别"                   propertyName="Sex"                                        dataType="System.String"/>
+  <add headerText="民族"                   propertyName="Nation"                                     dataType="System.String"/>
+  <add headerText="出生日期"               propertyName="Birthday"                                   dataType="System.String"/>
+  <add headerText="身份证号码"             propertyName="Cardid"                                     dataType="System.String"/>
+</module>
