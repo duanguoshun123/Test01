@@ -1,0 +1,13 @@
+C:\Test01\PersonalTest\Manage\bin\Debug\Manage.dll
+C:\Test01\PersonalTest\Manage\bin\Debug\Manage.pdb
+C:\Test01\PersonalTest\Manage\bin\Debug\DA.dll
+C:\Test01\PersonalTest\Manage\bin\Debug\DbFirst.dll
+C:\Test01\PersonalTest\Manage\bin\Debug\IDA.dll
+C:\Test01\PersonalTest\Manage\bin\Debug\EntityFramework.dll
+C:\Test01\PersonalTest\Manage\bin\Debug\DA.pdb
+C:\Test01\PersonalTest\Manage\bin\Debug\DbFirst.pdb
+C:\Test01\PersonalTest\Manage\bin\Debug\IDA.pdb
+C:\Test01\PersonalTest\Manage\bin\Debug\EntityFramework.xml
+C:\Test01\PersonalTest\Manage\obj\Debug\Manage.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\Manage\obj\Debug\Manage.dll
+C:\Test01\PersonalTest\Manage\obj\Debug\Manage.pdb

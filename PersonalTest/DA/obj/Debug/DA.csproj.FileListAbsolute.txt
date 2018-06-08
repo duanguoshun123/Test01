@@ -1,0 +1,12 @@
+C:\Test01\PersonalTest\DA\bin\Debug\DA.dll.config
+C:\Test01\PersonalTest\DA\bin\Debug\DA.dll
+C:\Test01\PersonalTest\DA\bin\Debug\DA.pdb
+C:\Test01\PersonalTest\DA\bin\Debug\DbFirst.dll
+C:\Test01\PersonalTest\DA\bin\Debug\EntityFramework.dll
+C:\Test01\PersonalTest\DA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Test01\PersonalTest\DA\bin\Debug\DbFirst.pdb
+C:\Test01\PersonalTest\DA\bin\Debug\EntityFramework.xml
+C:\Test01\PersonalTest\DA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Test01\PersonalTest\DA\obj\Debug\DA.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\DA\obj\Debug\DA.dll
+C:\Test01\PersonalTest\DA\obj\Debug\DA.pdb

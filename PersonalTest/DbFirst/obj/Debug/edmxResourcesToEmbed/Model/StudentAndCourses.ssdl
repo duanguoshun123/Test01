@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StuAndCourseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="course_Name" Type="nvarchar(max)" />
+    <Property Name="course_code" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="StuCousers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentID" Type="int" Nullable="false" />
+    <Property Name="CourseID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="stu_Name" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="stu_Pwd" Type="nvarchar(max)" />
+    <Property Name="stu_sex" Type="nvarchar(max)" />
+    <Property Name="stu_age" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_StuCousers_dbo_Courses_CourseID">
+    <End Role="Courses" Type="Self.Courses" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="StuCousers" Type="Self.StuCousers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Courses">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StuCousers">
+        <PropertyRef Name="CourseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_StuCousers_dbo_Students_StudentID">
+    <End Role="Students" Type="Self.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="StuCousers" Type="Self.StuCousers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StuCousers">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StuAndCourseModelStoreContainer">
+    <EntitySet Name="Courses" EntityType="Self.Courses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StuCousers" EntityType="Self.StuCousers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_StuCousers_dbo_Courses_CourseID" Association="Self.FK_dbo_StuCousers_dbo_Courses_CourseID">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="StuCousers" EntitySet="StuCousers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_StuCousers_dbo_Students_StudentID" Association="Self.FK_dbo_StuCousers_dbo_Students_StudentID">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="StuCousers" EntitySet="StuCousers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
