@@ -1,0 +1,12 @@
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\ClassHelper.dll
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\ClassHelper.pdb
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\log4net.dll
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\Logger.dll
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\MongoDB.Bson.dll
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\MongoDB.Driver.dll
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\log4net.xml
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\MongoDB.Bson.xml
+C:\Test01\PersonalTest\ClassHelper\bin\Debug\MongoDB.Driver.xml
+C:\Test01\PersonalTest\ClassHelper\obj\Debug\ClassHelper.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\ClassHelper\obj\Debug\ClassHelper.dll
+C:\Test01\PersonalTest\ClassHelper\obj\Debug\ClassHelper.pdb

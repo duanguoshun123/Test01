@@ -1,0 +1,8 @@
+C:\Test01\PersonalTest\ConsoleApplicationOfReflaction\bin\Debug\ConsoleApplicationOfReflaction.exe.config
+C:\Test01\PersonalTest\ConsoleApplicationOfReflaction\bin\Debug\ConsoleApplicationOfReflaction.exe
+C:\Test01\PersonalTest\ConsoleApplicationOfReflaction\bin\Debug\ConsoleApplicationOfReflaction.pdb
+C:\Test01\PersonalTest\ConsoleApplicationOfReflaction\bin\Debug\ReflactionHepler.dll
+C:\Test01\PersonalTest\ConsoleApplicationOfReflaction\bin\Debug\ReflactionHepler.pdb
+C:\Test01\PersonalTest\ConsoleApplicationOfReflaction\obj\Debug\ConsoleApplicationOfReflaction.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\ConsoleApplicationOfReflaction\obj\Debug\ConsoleApplicationOfReflaction.exe
+C:\Test01\PersonalTest\ConsoleApplicationOfReflaction\obj\Debug\ConsoleApplicationOfReflaction.pdb

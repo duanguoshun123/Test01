@@ -3,3 +3,8 @@ D:\MyTestProject\PersonalTest\DeepShallowCopy\bin\Debug\DeepShallowCopy.pdb
 D:\MyTestProject\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.csprojResolveAssemblyReference.cache
 D:\MyTestProject\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.dll
 D:\MyTestProject\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.pdb
+C:\Test01\PersonalTest\DeepShallowCopy\bin\Debug\DeepShallowCopy.dll
+C:\Test01\PersonalTest\DeepShallowCopy\bin\Debug\DeepShallowCopy.pdb
+C:\Test01\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.dll
+C:\Test01\PersonalTest\DeepShallowCopy\obj\Debug\DeepShallowCopy.pdb

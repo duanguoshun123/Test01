@@ -48,7 +48,7 @@ namespace ConsoleApplication
         }
         public static void GetAllStudent()
         {
-            var students = iStudentDA.GetAllStudents();
+            var students = iStudentDA.GetAllStudents().ToList();
             Console.WriteLine("ID\tName\tSex\tAge");
             for (int i = 0; i < students.Count; i++)
             {
@@ -92,38 +92,49 @@ namespace ConsoleApplication
         {
             Console.WriteLine("请输入要更新的对象ID");
             int id;
-            while (!int.TryParse(Console.ReadLine(), out id))
+            while (int.TryParse(Console.ReadLine(), out id))
             {
-                Console.WriteLine("ID无效");
-            }
-            Console.WriteLine("请输入姓名:");
-            var name = Console.ReadLine();
-            Console.WriteLine("请输入性别:");
-            var sex = Console.ReadLine();
-            Console.WriteLine("请输入年龄:");
-            int age;
-            while (!int.TryParse(Console.ReadLine(), out age))
-            {
-                Console.WriteLine("输入有效的年龄");
-            }
-            Console.WriteLine("请输入密码:");
-            var pwd = Console.ReadLine();
-            var stu = new Students() { ID = id, stu_Name = name, stu_sex = sex, stu_age = age, stu_Pwd = pwd };
-            if (iStudentDA.UpdateStudents(stu))
-            {
-                Console.WriteLine("更新成功");
-                GetAllStudent();
-                Console.WriteLine("是否继续更新，Y/N");
-                if (Console.ReadLine() == "Y")
+                if (iStudentDA.GetById(id) == null)
                 {
-                    UpdateStudent();
+                    Console.WriteLine("更新失败,不存在此对象,请重新输入");
+                    continue;
+                }
+                Console.WriteLine("ID无效");
+                Console.WriteLine("请输入姓名:");
+                var name = Console.ReadLine();
+                Console.WriteLine("请输入性别:");
+                var sex = Console.ReadLine();
+                Console.WriteLine("请输入年龄:");
+                int age;
+                while (!int.TryParse(Console.ReadLine(), out age))
+                {
+                    Console.WriteLine("输入有效的年龄");
+                }
+                Console.WriteLine("请输入密码:");
+                var pwd = Console.ReadLine();
+                var stu = new Students() { ID = id, stu_Name = name, stu_sex = sex, stu_age = age, stu_Pwd = pwd };
+                try
+                {
+                    if (iStudentDA.UpdateStudents(stu))
+                    {
+                        Console.WriteLine("更新成功");
+                        GetAllStudent();
+                        Console.WriteLine("是否继续更新，Y/N");
+                        if (Console.ReadLine() == "Y")
+                        {
+                            UpdateStudent();
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("更新失败");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("更新失败,{0}", ex.Message);
                 }
             }
-            else
-            {
-                Console.WriteLine("添加失败");
-            }
-
         }
         public static void DeleteStudent()
         {

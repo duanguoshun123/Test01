@@ -48,9 +48,13 @@ namespace Manage
                 return false;
             }
         }
-        public List<Students> GetAllStudents()
+        public Students GetById(int id)
         {
-            return studentDA.GetAllStudents() ?? new List<Students>();
+            return studentDA.GetById(id);
+        }
+        public IEnumerable<Students> GetAllStudents()
+        {
+            return studentDA.GetAllStudents();
         }
     }
 }

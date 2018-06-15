@@ -11,6 +11,7 @@ namespace IDA
         bool AddStudents(Students stu);
         bool UpdateStudents(Students stu);
         bool DeleteStudents(int id);
-        List<Students> GetAllStudents();
+        Students GetById(int id);
+        IEnumerable<Students> GetAllStudents();
     }
 }

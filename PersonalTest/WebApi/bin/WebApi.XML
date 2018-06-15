@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.HomeController.Get">
+            <summary>
+            获取学生
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:WebApi.Models.UserTest.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:WebApi.Models.UserTest.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:WebApi.Models.UserTest.Sex">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

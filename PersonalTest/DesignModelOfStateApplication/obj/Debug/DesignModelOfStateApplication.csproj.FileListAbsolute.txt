@@ -8,3 +8,13 @@ D:\MyTestProject\PersonalTest\DesignModelOfStateApplication\bin\Debug\DeepShallo
 D:\MyTestProject\PersonalTest\DesignModelOfStateApplication\obj\Debug\DesignModelOfStateApplication.csprojResolveAssemblyReference.cache
 D:\MyTestProject\PersonalTest\DesignModelOfStateApplication\obj\Debug\DesignModelOfStateApplication.exe
 D:\MyTestProject\PersonalTest\DesignModelOfStateApplication\obj\Debug\DesignModelOfStateApplication.pdb
+C:\Test01\PersonalTest\DesignModelOfStateApplication\bin\Debug\DesignModelOfStateApplication.exe.config
+C:\Test01\PersonalTest\DesignModelOfStateApplication\bin\Debug\DesignModelOfStateApplication.exe
+C:\Test01\PersonalTest\DesignModelOfStateApplication\bin\Debug\DesignModelOfStateApplication.pdb
+C:\Test01\PersonalTest\DesignModelOfStateApplication\bin\Debug\DesignModelClass.dll
+C:\Test01\PersonalTest\DesignModelOfStateApplication\bin\Debug\DeepShallowCopy.dll
+C:\Test01\PersonalTest\DesignModelOfStateApplication\bin\Debug\DesignModelClass.pdb
+C:\Test01\PersonalTest\DesignModelOfStateApplication\bin\Debug\DeepShallowCopy.pdb
+C:\Test01\PersonalTest\DesignModelOfStateApplication\obj\Debug\DesignModelOfStateApplication.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\DesignModelOfStateApplication\obj\Debug\DesignModelOfStateApplication.exe
+C:\Test01\PersonalTest\DesignModelOfStateApplication\obj\Debug\DesignModelOfStateApplication.pdb

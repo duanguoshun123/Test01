@@ -48,9 +48,14 @@ namespace DA
                 throw new Exception("无删除对象");
             }
         }
-        public List<Students> GetAllStudents()
+        public Students GetById(int id)
         {
-            var stu = contexts.Students.ToList();
+            var stu = contexts.Students.Where(p => p.ID == id).FirstOrDefault();
+            return stu;
+        }
+        public IEnumerable<Students> GetAllStudents()
+        {
+            var stu = contexts.Students;
             return stu;
         }
     }
