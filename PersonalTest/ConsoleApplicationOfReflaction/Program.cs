@@ -80,7 +80,14 @@ namespace ConsoleApplicationOfReflaction
             PropertyInfo propertyInfo = tTestDelegateClass.GetProperty("Id");
             FieldInfo fieldInfo = tTestDelegateClass.GetField("Name");
             // TestDelegateClass objTestDelegateClass2=(TestDelegateClass)tTestDelegateClass.FastNew
-            Console.ReadLine();
+
+            string name1, name2;
+            name1 = "Jimmy Zhang";
+            name2 = "张子阳";
+            DelegateAccess.GreetPeople(name1, DelegateAccess.EnglishGreeting);
+            DelegateAccess.GreetPeople(name2, DelegateAccess.ChineseGreeting);
+
+            Console.ReadKey();
         }
     }
 }

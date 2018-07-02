@@ -1,0 +1,6 @@
+C:\Test01\PersonalTest\ListTest\bin\Debug\ListTest.exe.config
+C:\Test01\PersonalTest\ListTest\bin\Debug\ListTest.exe
+C:\Test01\PersonalTest\ListTest\bin\Debug\ListTest.pdb
+C:\Test01\PersonalTest\ListTest\obj\Debug\ListTest.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\ListTest\obj\Debug\ListTest.exe
+C:\Test01\PersonalTest\ListTest\obj\Debug\ListTest.pdb
