@@ -6,4 +6,3 @@ C:\Test01\PersonalTest\Log4netApplication\bin\Debug\log4net.dll
 C:\Test01\PersonalTest\Log4netApplication\bin\Debug\log4net.xml
 C:\Test01\PersonalTest\Log4netApplication\obj\Debug\Log4netApplication.exe
 C:\Test01\PersonalTest\Log4netApplication\obj\Debug\Log4netApplication.pdb
-C:\Test01\PersonalTest\Log4netApplication\obj\Debug\Log4netApplication.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Test01\PersonalTest\Common.Log\bin\Release\Common.Log.dll
+C:\Test01\PersonalTest\Common.Log\bin\Release\Common.Log.pdb
+C:\Test01\PersonalTest\Common.Log\bin\Release\log4net.dll
+C:\Test01\PersonalTest\Common.Log\bin\Release\log4net.xml
+C:\Test01\PersonalTest\Common.Log\obj\Release\Common.Log.dll
+C:\Test01\PersonalTest\Common.Log\obj\Release\Common.Log.pdb

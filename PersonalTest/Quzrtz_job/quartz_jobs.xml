@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <!--开始执行一个调度--><!--
+    --><!--任务，可添加多个-->
+    <job>
+      <!--任务名称【必填】：同一group中多个job的name名不能相同-->
+      <name>TimeJob</name>
+      <!--任务所属分组【选填】-->
+      <group>Timer</group>
+      <!--任务描述【选填】-->
+      <description>定时任务</description>
+      <!--任务类型【必填】：实现IJob接口完整命名空间的类名，程序集名-->
+      <job-type>TimeJonClassLir.TimeJob1, TimeJonClassLir</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+
+    <!--触发器，可添加多个-->
+    <trigger>
+      <!--simple:简单触发器类型,cron:复杂触发器类型【推荐】-->
+      <cron>
+        <!--触发器名称【必填】：同一group中多个trigger的name不能相同-->
+        <name>TimeTrigger</name>
+        <!--触发器组【选填】-->
+        <group>Timer</group>
+        <!--触发器描述【选填】-->
+        <description>每天9-18点半小时执行一次</description>
+        <!--要调度的任务名称【必填】：必须和对应job节点中的name相同-->
+        <job-name>TimeJob</job-name>
+        <!--要调度的任务的所属分组【选填】：必须和对应job节点中的group相同-->
+        <job-group>Timer</job-group>
+        <cron-expression>0 0/1 9-18 * * ?</cron-expression>
+      </cron>
+
+    </trigger>
+    <!--结束一个调度-->
+
+    <!--开始执行一个调度-->
+    <job>
+      <!--任务名称【必填】：同一group中多个job的name名不能相同-->
+      <name>TimeJob2</name>
+      <!--任务所属分组【选填】-->
+      <group>Timer</group>
+      <!--任务描述【选填】-->
+      <description>定时任务</description>
+      <!--任务类型【必填】：实现IJob接口完整命名空间的类名，程序集名-->
+      <job-type>TimeJonClassLir.TimeJob2, TimeJonClassLir</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+
+    <trigger>
+      <!--simple:简单触发器类型,cron:复杂触发器类型【推荐】-->
+      <cron>
+        <!--触发器名称【必填】：同一group中多个trigger的name不能相同-->
+        <name>TimeTrigger1</name>
+        <!--触发器组【选填】-->
+        <group>Timer</group>
+        <!--触发器描述【选填】-->
+        <description>每天10:35执行一次更新信息</description>
+        <!--要调度的任务名称【必填】：必须和对应job节点中的name相同-->
+        <job-name>TimeJob2</job-name>
+        <!--要调度的任务的所属分组【选填】：必须和对应job节点中的group相同-->
+        <job-group>Timer</job-group>
+        <cron-expression>0 35 10 * * ?</cron-expression>
+      </cron>
+
+    </trigger>
+    <!--结束一个调度-->
+
+    <!--开始执行一个调度-->
+    <job>
+      <!--任务名称【必填】：同一group中多个job的name名不能相同-->
+      <name>TimeJob3</name>
+      <!--任务所属分组【选填】-->
+      <group>Timer</group>
+      <!--任务描述【选填】-->
+      <description>每天23:00执行一次</description>
+      <!--任务类型【必填】：实现IJob接口完整命名空间的类名，程序集名-->
+      <job-type>TimeJonClassLir.TimeJob3, TimeJonClassLir</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+
+    <!--触发器，可添加多个-->
+    <trigger>
+      <!--simple:简单触发器类型,cron:复杂触发器类型【推荐】-->
+      <cron>
+        <!--触发器名称【必填】：同一group中多个trigger的name不能相同-->
+        <name>TimeTrigger2</name>
+        <!--触发器组【选填】-->
+        <group>Timer</group>
+        <!--触发器描述【选填】-->
+        <description>每天23:00执行一次</description>
+        <!--要调度的任务名称【必填】：必须和对应job节点中的name相同-->
+        <job-name>TimeJob3</job-name>
+        <!--要调度的任务的所属分组【选填】：必须和对应job节点中的group相同-->
+        <job-group>Timer</job-group>
+        <cron-expression>0 0 23 * * ?</cron-expression>
+      </cron>
+
+    </trigger>
+    <!--结束一个调度-->
+  </schedule>
+</job-scheduling-data>

@@ -1,0 +1,4 @@
+C:\Test01\PersonalTest\Dal\bin\Debug\Dal.dll
+C:\Test01\PersonalTest\Dal\bin\Debug\Dal.pdb
+C:\Test01\PersonalTest\Dal\obj\Debug\Dal.dll
+C:\Test01\PersonalTest\Dal\obj\Debug\Dal.pdb

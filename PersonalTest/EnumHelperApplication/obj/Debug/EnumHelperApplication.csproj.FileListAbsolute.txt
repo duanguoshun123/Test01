@@ -1,0 +1,5 @@
+C:\Test01\PersonalTest\EnumHelperApplication\bin\Debug\EnumHelperApplication.exe.config
+C:\Test01\PersonalTest\EnumHelperApplication\bin\Debug\EnumHelperApplication.exe
+C:\Test01\PersonalTest\EnumHelperApplication\bin\Debug\EnumHelperApplication.pdb
+C:\Test01\PersonalTest\EnumHelperApplication\obj\Debug\EnumHelperApplication.exe
+C:\Test01\PersonalTest\EnumHelperApplication\obj\Debug\EnumHelperApplication.pdb

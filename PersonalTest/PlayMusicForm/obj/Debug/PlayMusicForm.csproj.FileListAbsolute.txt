@@ -1,0 +1,10 @@
+C:\Test01\PersonalTest\PlayMusicForm\bin\Debug\PlayMusicForm.exe.config
+C:\Test01\PersonalTest\PlayMusicForm\obj\Debug\Interop.WMPLib.dll
+C:\Test01\PersonalTest\PlayMusicForm\obj\Debug\PlayMusicForm.csproj.ResolveComReference.cache
+C:\Test01\PersonalTest\PlayMusicForm\bin\Debug\PlayMusicForm.exe
+C:\Test01\PersonalTest\PlayMusicForm\bin\Debug\PlayMusicForm.pdb
+C:\Test01\PersonalTest\PlayMusicForm\obj\Debug\PlayMusicForm.Music_Form.resources
+C:\Test01\PersonalTest\PlayMusicForm\obj\Debug\PlayMusicForm.Properties.Resources.resources
+C:\Test01\PersonalTest\PlayMusicForm\obj\Debug\PlayMusicForm.csproj.GenerateResource.Cache
+C:\Test01\PersonalTest\PlayMusicForm\obj\Debug\PlayMusicForm.exe
+C:\Test01\PersonalTest\PlayMusicForm\obj\Debug\PlayMusicForm.pdb

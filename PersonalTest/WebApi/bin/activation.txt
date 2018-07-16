@@ -1,0 +1,15 @@
+<activationrequest>
+<version>3</version>
+<machinehash>9CE1-06B3-C41C-FE00</machinehash>
+<productcode>24</productcode>
+<majorversion>8</majorversion>
+<minorversion>0</minorversion>
+<serialnumber>A39P-WEJR-NBW4-27F9-8JP2-7EYA</serialnumber>
+<session>6fe93141-85bb-4528-ba45-a833db838003</session>
+<locale>zh-CN</locale>
+<custom>
+<email>865552348@qq.com</email>
+<identifier>guoshun.duan@guoshunduanpc</identifier>
+<newsletter>true</newsletter>
+</custom>
+</activationrequest>

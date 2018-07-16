@@ -2,4 +2,3 @@ C:\Test01\PersonalTest\ReflactionHepler\bin\Debug\ReflactionHepler.dll
 C:\Test01\PersonalTest\ReflactionHepler\bin\Debug\ReflactionHepler.pdb
 C:\Test01\PersonalTest\ReflactionHepler\obj\Debug\ReflactionHepler.dll
 C:\Test01\PersonalTest\ReflactionHepler\obj\Debug\ReflactionHepler.pdb
-C:\Test01\PersonalTest\ReflactionHepler\obj\Debug\ReflactionHepler.csprojResolveAssemblyReference.cache

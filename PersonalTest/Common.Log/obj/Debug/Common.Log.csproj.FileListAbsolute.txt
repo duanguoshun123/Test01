@@ -1,0 +1,7 @@
+C:\Test01\PersonalTest\Common.Log\bin\Debug\Common.Log.dll
+C:\Test01\PersonalTest\Common.Log\bin\Debug\Common.Log.pdb
+C:\Test01\PersonalTest\Common.Log\bin\Debug\log4net.dll
+C:\Test01\PersonalTest\Common.Log\bin\Debug\log4net.xml
+C:\Test01\PersonalTest\Common.Log\obj\Debug\Common.Log.dll
+C:\Test01\PersonalTest\Common.Log\obj\Debug\Common.Log.pdb
+C:\Test01\PersonalTest\Common.Log\obj\Debug\Common.Log.csprojResolveAssemblyReference.cache
