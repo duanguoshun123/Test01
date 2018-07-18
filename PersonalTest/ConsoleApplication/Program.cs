@@ -11,9 +11,24 @@ namespace ConsoleApplication
 {
     class Program
     {
-        public static IStudentDA iStudentDA = new StudentManage();
+        public static IStudentDA iStudentDA;
         static void Main(string[] args)
         {
+            Console.WriteLine("请选择对应的数据库操作：A(数据库1)，B(数据库2)");
+            var key01 = Console.ReadLine();
+            if (key01 == "A")
+            {
+                iStudentDA = new StudentManage("StuAndCourse");
+            }
+            else if (key01 == "B")
+            {
+                iStudentDA = new StudentManage("StuAndCourse_Copy1");
+            }
+            else
+            {
+                Console.WriteLine("没有对应的数据库操作！");
+                Console.ReadKey();
+            }
             GetAllStudent();
             Console.WriteLine("请选择操作,I(添加),U(更新),D(删除),Q（查询所有）");
             var key = Console.ReadLine();
@@ -78,6 +93,21 @@ namespace ConsoleApplication
                 Console.WriteLine("是否继续添加，Y/N");
                 if (Console.ReadLine() == "Y")
                 {
+                    Console.WriteLine("请选择对应的数据库操作：A(数据库1)，B(数据库2)");
+                    var key01 = Console.ReadLine();
+                    if (key01 == "A")
+                    {
+                        iStudentDA = new StudentManage("StuAndCourse");
+                    }
+                    else if (key01 == "B")
+                    {
+                        iStudentDA = new StudentManage("StuAndCourse_Copy1");
+                    }
+                    else
+                    {
+                        Console.WriteLine("没有对应的数据库操作！");
+                        Console.ReadKey();
+                    }
                     AddStudent();
                 }
             }
@@ -85,8 +115,6 @@ namespace ConsoleApplication
             {
                 Console.WriteLine("添加失败");
             }
-
-
         }
         public static void UpdateStudent()
         {
@@ -122,6 +150,21 @@ namespace ConsoleApplication
                         Console.WriteLine("是否继续更新，Y/N");
                         if (Console.ReadLine() == "Y")
                         {
+                            Console.WriteLine("请选择对应的数据库操作：A(数据库1)，B(数据库2)");
+                            var key01 = Console.ReadLine();
+                            if (key01 == "A")
+                            {
+                                iStudentDA = new StudentManage("StuAndCourse");
+                            }
+                            else if (key01 == "B")
+                            {
+                                iStudentDA = new StudentManage("StuAndCourse_Copy1");
+                            }
+                            else
+                            {
+                                Console.WriteLine("没有对应的数据库操作！");
+                                Console.ReadKey();
+                            }
                             UpdateStudent();
                         }
                     }
@@ -153,6 +196,21 @@ namespace ConsoleApplication
                     Console.WriteLine("是否继续删除，Y/N");
                     if (Console.ReadLine() == "Y")
                     {
+                        Console.WriteLine("请选择对应的数据库操作：A(数据库1)，B(数据库2)");
+                        var key01 = Console.ReadLine();
+                        if (key01 == "A")
+                        {
+                            iStudentDA = new StudentManage("StuAndCourse");
+                        }
+                        else if (key01 == "B")
+                        {
+                            iStudentDA = new StudentManage("StuAndCourse_Copy1");
+                        }
+                        else
+                        {
+                            Console.WriteLine("没有对应的数据库操作！");
+                            Console.ReadKey();
+                        }
                         DeleteStudent();
                     }
                 }

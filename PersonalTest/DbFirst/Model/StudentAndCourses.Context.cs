@@ -12,19 +12,24 @@ namespace DbFirst.Model
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+
     public partial class StuAndCourseEntities : DbContext
     {
-        public StuAndCourseEntities()
-            : base("name=StuAndCourseEntities")
+        public StuAndCourseEntities(string name)
+            : base("StuAndCourseEntities")
         {
+
         }
-    
+        //public StuAndCourseEntities()
+        //        : base("name=StuAndCourseEntities")
+        //{
+        //}
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
+
         }
-    
+
         public virtual DbSet<Courses> Courses { get; set; }
         public virtual DbSet<StuCousers> StuCousers { get; set; }
         public virtual DbSet<Students> Students { get; set; }

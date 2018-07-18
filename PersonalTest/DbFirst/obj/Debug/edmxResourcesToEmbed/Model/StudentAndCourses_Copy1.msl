@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StuAndCourse_Copy1ModelStoreContainer" CdmEntityContainer="StuAndCourse_Copy1Entities">
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="StuAndCourse_Copy1Model.Courses">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="course_Name" ColumnName="course_Name" />
+          <ScalarProperty Name="course_code" ColumnName="course_code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StuCousers">
+      <EntityTypeMapping TypeName="StuAndCourse_Copy1Model.StuCousers">
+        <MappingFragment StoreEntitySet="StuCousers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="StuAndCourse_Copy1Model.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="stu_Name" ColumnName="stu_Name" />
+          <ScalarProperty Name="stu_Pwd" ColumnName="stu_Pwd" />
+          <ScalarProperty Name="stu_sex" ColumnName="stu_sex" />
+          <ScalarProperty Name="stu_age" ColumnName="stu_age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

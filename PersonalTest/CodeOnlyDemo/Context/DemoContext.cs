@@ -10,8 +10,19 @@ namespace CodeOnlyDemo.Context
 {
     public class DemoContext : DbContext
     {
-        public DemoContext()
-            : base("name=ConnCodeFirst")
+        public static string dbName { get; set; }
+        public static  string GetConnection(string name)
+        {
+            var connectionString = "server=.;uid=sa;pwd=Miss20170129;database="+name;
+            return connectionString;
+        }
+        //public DemoContext()
+        //    : base("name=ConnCodeFirst_Copy1")
+        //{
+
+        //}
+        public DemoContext(string name)
+           : base(name)
         {
 
         }

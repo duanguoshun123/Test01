@@ -27,7 +27,7 @@ namespace CodeOnlyDemo
         {
             string username = this.txt_username.Text.Trim();
             string password = this.txt_password.Text;
-            using (DemoContext context = new DemoContext())
+            using (DemoContext context = new DemoContext(""))
             {
                 context.customer.Add(new Customer { Id = Guid.NewGuid(), Name = username, Password = password });
                 if (context.SaveChanges() > 0)

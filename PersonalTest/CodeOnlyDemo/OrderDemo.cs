@@ -28,7 +28,7 @@ namespace CodeOnlyDemo
         private void btn_submit_Click(object sender, EventArgs e)
         {
             string name = this.goods_txt.Text.Trim();
-            using (DemoContext context = new DemoContext())
+            using (DemoContext context = new DemoContext(""))
             {
                 Customer customer1 = context.customer.Where(c => c.Name == username).FirstOrDefault();
                 context.order.Add(new Order { Id = Guid.NewGuid(), Type = name, InsertTime = DateTime.Now, customer = customer1 });

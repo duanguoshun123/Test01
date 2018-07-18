@@ -11,7 +11,11 @@ namespace Manage
 {
     public class StudentManage : IStudentDA
     {
-        public StudtentDA studentDA = new StudtentDA();
+        public StudtentDA studentDA;
+        public StudentManage(string dbName)
+        {
+            studentDA = new StudtentDA("server =.; uid=sa;pwd=Miss20170129;database=" + dbName);
+        }
         public bool AddStudents(Students stu)
         {
             int result = studentDA.AddStudents(stu);

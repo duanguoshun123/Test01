@@ -42,7 +42,7 @@ namespace CodeOnlyDemo
         {
             int.TryParse(this.cur_page_txt.Text, out curPage);
             page.CurPage = curPage;
-            using (DemoContext context = new DemoContext())
+            using (DemoContext context = new DemoContext(""))
             {
                 var listAll = context.order.Join(context.customer, a => a.customer.Id, b => b.Id, (a, b) => new { 姓名 = b.Name, 商品类型 = a.Type, 插入时间 = a.InsertTime });
                 page.RecordCount = listAll.ToList() == null ? 0 : listAll.ToList().Count;//总条数
@@ -144,7 +144,7 @@ namespace CodeOnlyDemo
         private void AddAction()
         {
             var sucCount = 0;//用来记录添加成功的信息条数
-            using (DemoContext context = new DemoContext())
+            using (DemoContext context = new DemoContext(""))
             {
                 //记录调用接口前的时间  
                 TimeSpan startTime = new TimeSpan(DateTime.Now.Ticks);

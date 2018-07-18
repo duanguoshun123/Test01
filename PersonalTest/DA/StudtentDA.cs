@@ -1,4 +1,5 @@
-﻿using DbFirst.Model;
+﻿using DbFirst.DbContexts;
+using DbFirst.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,12 @@ namespace DA
 {
     public class StudtentDA
     {
-        StuAndCourseEntities contexts = new StuAndCourseEntities();
+        CommonDbContext contexts;
+        public StudtentDA(string connectionString)
+        {
+            contexts = new CommonDbContext(connectionString);
+        }
+
         public int AddStudents(Students stu)
         {
             contexts.Students.Add(stu);

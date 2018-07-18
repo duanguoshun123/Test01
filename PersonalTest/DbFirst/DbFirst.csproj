@@ -51,11 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbContexts\CommonDbContext.cs" />
     <Compile Include="Model\Courses.cs">
-      <DependentUpon>StudentAndCourses.tt</DependentUpon>
+      <DependentUpon>StudentAndCourses_Copy1.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\StuCousers.cs">
-      <DependentUpon>StudentAndCourses.tt</DependentUpon>
+      <DependentUpon>StudentAndCourses_Copy1.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\StudentAndCourses.Context.cs">
       <AutoGen>True</AutoGen>
@@ -72,8 +73,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StudentAndCourses.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Model\StudentAndCourses_Copy1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentAndCourses_Copy1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StudentAndCourses_Copy1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentAndCourses_Copy1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StudentAndCourses_Copy1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentAndCourses_Copy1.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Model\Students.cs">
-      <DependentUpon>StudentAndCourses.tt</DependentUpon>
+      <DependentUpon>StudentAndCourses_Copy1.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -85,6 +101,13 @@
     </EntityDeploy>
     <None Include="Model\StudentAndCourses.edmx.diagram">
       <DependentUpon>StudentAndCourses.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="Model\StudentAndCourses_Copy1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>StudentAndCourses_Copy1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model\StudentAndCourses_Copy1.edmx.diagram">
+      <DependentUpon>StudentAndCourses_Copy1.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -101,6 +124,16 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>StudentAndCourses.edmx</DependentUpon>
       <LastGenOutput>StudentAndCourses.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\StudentAndCourses_Copy1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StudentAndCourses_Copy1.edmx</DependentUpon>
+      <LastGenOutput>StudentAndCourses_Copy1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\StudentAndCourses_Copy1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StudentAndCourses_Copy1.edmx</DependentUpon>
+      <LastGenOutput>StudentAndCourses_Copy1.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

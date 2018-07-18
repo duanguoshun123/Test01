@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StuAndCourse_Copy1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="course_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="course_code" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="StuCousers" Relationship="Self.FK_dbo_StuCousers_dbo_Courses_CourseID" FromRole="Courses" ToRole="StuCousers" />
+  </EntityType>
+  <EntityType Name="StuCousers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="CourseID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Courses" Relationship="Self.FK_dbo_StuCousers_dbo_Courses_CourseID" FromRole="StuCousers" ToRole="Courses" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_dbo_StuCousers_dbo_Students_StudentID" FromRole="StuCousers" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="stu_Name" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="stu_Pwd" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="stu_sex" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="stu_age" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="StuCousers" Relationship="Self.FK_dbo_StuCousers_dbo_Students_StudentID" FromRole="Students" ToRole="StuCousers" />
+  </EntityType>
+  <Association Name="FK_dbo_StuCousers_dbo_Courses_CourseID">
+    <End Role="Courses" Type="Self.Courses" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="StuCousers" Type="Self.StuCousers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Courses">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StuCousers">
+        <PropertyRef Name="CourseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_StuCousers_dbo_Students_StudentID">
+    <End Role="Students" Type="Self.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="StuCousers" Type="Self.StuCousers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StuCousers">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StuAndCourse_Copy1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Courses" EntityType="Self.Courses" />
+    <EntitySet Name="StuCousers" EntityType="Self.StuCousers" />
+    <EntitySet Name="Students" EntityType="Self.Students" />
+    <AssociationSet Name="FK_dbo_StuCousers_dbo_Courses_CourseID" Association="Self.FK_dbo_StuCousers_dbo_Courses_CourseID">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="StuCousers" EntitySet="StuCousers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_StuCousers_dbo_Students_StudentID" Association="Self.FK_dbo_StuCousers_dbo_Students_StudentID">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="StuCousers" EntitySet="StuCousers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
