@@ -1,0 +1,6 @@
+C:\Test01\PersonalTest\ClassOverrideHelper\bin\Debug\ClassOverrideHelper.exe.config
+C:\Test01\PersonalTest\ClassOverrideHelper\bin\Debug\ClassOverrideHelper.exe
+C:\Test01\PersonalTest\ClassOverrideHelper\bin\Debug\ClassOverrideHelper.pdb
+C:\Test01\PersonalTest\ClassOverrideHelper\obj\Debug\ClassOverrideHelper.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\ClassOverrideHelper\obj\Debug\ClassOverrideHelper.exe
+C:\Test01\PersonalTest\ClassOverrideHelper\obj\Debug\ClassOverrideHelper.pdb
