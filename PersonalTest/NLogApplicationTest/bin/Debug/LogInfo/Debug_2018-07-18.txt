@@ -1,0 +1,18 @@
+
+时间： 2018-07-18 16:11:06.0771
+日志类型（级别）： Debug
+记录器的名字： NLogHelper.NLogHelperFunc
+机器名称： GUOSHUNDUANPC 
+日志信息内容： 调试：除法运算
+当前应用程序域： 0001:NLogApplicationTest.exe
+应用程序： 1.0.0.0
+应用程序域的基本目录： C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\ 
+产生位置： NLogHelper.NLogHelperFunc.LoggerDebug
+行位置： 39
+数值： 1
+nlog.dll目录： C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug 
+当前进程标识符： 53884
+当前进程的名称： NLogApplicationTest
+文件夹路径： C:\Users\guoshun.duan\Desktop 
+堆栈跟踪渲染器: Program.Main => NLogHelperFunc.LoggerDebug
+-----------------------------------------------------------

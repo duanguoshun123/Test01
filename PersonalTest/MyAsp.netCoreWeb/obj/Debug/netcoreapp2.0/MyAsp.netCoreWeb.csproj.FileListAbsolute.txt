@@ -1,0 +1,11 @@
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\bin\Debug\netcoreapp2.0\MyAsp.netCoreWeb.deps.json
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\bin\Debug\netcoreapp2.0\MyAsp.netCoreWeb.runtimeconfig.json
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\bin\Debug\netcoreapp2.0\MyAsp.netCoreWeb.runtimeconfig.dev.json
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\bin\Debug\netcoreapp2.0\MyAsp.netCoreWeb.dll
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\bin\Debug\netcoreapp2.0\MyAsp.netCoreWeb.pdb
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\obj\Debug\netcoreapp2.0\MyAsp.netCoreWeb.csprojAssemblyReference.cache
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\obj\Debug\netcoreapp2.0\MyAsp.netCoreWeb.csproj.CoreCompileInputs.cache
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\obj\Debug\netcoreapp2.0\MyAsp.netCoreWeb.AssemblyInfoInputs.cache
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\obj\Debug\netcoreapp2.0\MyAsp.netCoreWeb.AssemblyInfo.cs
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\obj\Debug\netcoreapp2.0\MyAsp.netCoreWeb.dll
+C:\Test01\PersonalTest\MyAsp.netCoreWeb\obj\Debug\netcoreapp2.0\MyAsp.netCoreWeb.pdb

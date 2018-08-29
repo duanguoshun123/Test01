@@ -6,7 +6,9 @@ C:\Test01\PersonalTest\DbFirst\bin\Debug\EntityFramework.SqlServer.dll
 C:\Test01\PersonalTest\DbFirst\bin\Debug\EntityFramework.xml
 C:\Test01\PersonalTest\DbFirst\bin\Debug\EntityFramework.SqlServer.xml
 C:\Test01\PersonalTest\DbFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
-C:\Test01\PersonalTest\DbFirst\obj\Debug\DbFirst.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\DbFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Test01\PersonalTest\DbFirst\obj\Debug\DbFirst.csprojAssemblyReference.cache
+C:\Test01\PersonalTest\DbFirst\obj\Debug\DbFirst.csproj.CoreCompileInputs.cache
+C:\Test01\PersonalTest\DbFirst\obj\Debug\DbFirst.csproj.CopyComplete
 C:\Test01\PersonalTest\DbFirst\obj\Debug\DbFirst.dll
 C:\Test01\PersonalTest\DbFirst\obj\Debug\DbFirst.pdb
-C:\Test01\PersonalTest\DbFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

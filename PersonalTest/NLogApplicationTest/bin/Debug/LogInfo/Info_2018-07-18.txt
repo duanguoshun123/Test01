@@ -1,0 +1,58 @@
+
+
+
+
+
+时间： 2018-07-18 16:01:22.2833
+日志类型（级别）： Info
+记录器的名字： NLogHelper.NLogHelperFunc
+机器名称： GUOSHUNDUANPC 
+日志信息内容： 2018-07-18 16:01:22信息日志
+当前应用程序域： 0001:NLogApplicationTest.exe
+应用程序： 1.0.0.0
+应用程序域的基本目录： C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\ 
+产生位置： NLogHelper.NLogHelperFunc.LoggerInfo
+行位置： 15
+数值： 1
+nlog.dll目录： C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug 
+当前进程标识符： 46692
+当前进程的名称： NLogApplicationTest
+文件夹路径： C:\Users\guoshun.duan\Desktop 
+堆栈跟踪渲染器: Program.Main => NLogHelperFunc.LoggerInfo
+-----------------------------------------------------------
+
+时间： 2018-07-18 16:04:23.1889
+日志类型（级别）： Info
+记录器的名字： NLogHelper.NLogHelperFunc
+机器名称： GUOSHUNDUANPC 
+日志信息内容： 2018-07-18 16:04:23信息日志
+当前应用程序域： 0001:NLogApplicationTest.exe
+应用程序： 1.0.0.0
+应用程序域的基本目录： C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\ 
+产生位置： NLogHelper.NLogHelperFunc.LoggerInfo
+行位置： 19
+数值： 1
+nlog.dll目录： C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug 
+当前进程标识符： 38700
+当前进程的名称： NLogApplicationTest
+文件夹路径： C:\Users\guoshun.duan\Desktop 
+堆栈跟踪渲染器: Program.Main => NLogHelperFunc.LoggerInfo
+-----------------------------------------------------------
+
+时间： 2018-07-18 16:04:23.2288
+日志类型（级别）： Info
+记录器的名字： NLogHelper.NLogHelperFunc
+机器名称： GUOSHUNDUANPC 
+日志信息内容： 2018-07-18 16:04:23信息日志
+当前应用程序域： 0001:NLogApplicationTest.exe
+应用程序： 1.0.0.0
+应用程序域的基本目录： C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\ 
+产生位置： NLogHelper.NLogHelperFunc.LoggerInfo
+行位置： 15
+数值： 2
+nlog.dll目录： C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug 
+当前进程标识符： 38700
+当前进程的名称： NLogApplicationTest
+文件夹路径： C:\Users\guoshun.duan\Desktop 
+堆栈跟踪渲染器: Program.Main => NLogHelperFunc.LoggerInfo
+-----------------------------------------------------------

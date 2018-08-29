@@ -1,0 +1,14 @@
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\EnyimMemcachedHelper.dll.config
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\EnyimMemcachedHelper.dll
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\EnyimMemcachedHelper.pdb
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\Enyim.Caching.dll
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\Enyim.Caching.Web.dll
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\Membase.dll
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\Enyim.Caching.pdb
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\Enyim.Caching.xml
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\Enyim.Caching.Web.pdb
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\Membase.pdb
+C:\Test01\PersonalTest\EnyimMemcachedHelper\bin\Debug\Membase.xml
+C:\Test01\PersonalTest\EnyimMemcachedHelper\obj\Debug\EnyimMemcachedHelper.dll
+C:\Test01\PersonalTest\EnyimMemcachedHelper\obj\Debug\EnyimMemcachedHelper.pdb
+C:\Test01\PersonalTest\EnyimMemcachedHelper\obj\Debug\EnyimMemcachedHelper.csprojResolveAssemblyReference.cache

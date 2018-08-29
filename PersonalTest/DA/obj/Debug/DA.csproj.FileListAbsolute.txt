@@ -5,8 +5,11 @@ C:\Test01\PersonalTest\DA\bin\Debug\DbFirst.dll
 C:\Test01\PersonalTest\DA\bin\Debug\EntityFramework.dll
 C:\Test01\PersonalTest\DA\bin\Debug\EntityFramework.SqlServer.dll
 C:\Test01\PersonalTest\DA\bin\Debug\DbFirst.pdb
+C:\Test01\PersonalTest\DA\bin\Debug\DbFirst.dll.config
 C:\Test01\PersonalTest\DA\bin\Debug\EntityFramework.xml
 C:\Test01\PersonalTest\DA\bin\Debug\EntityFramework.SqlServer.xml
-C:\Test01\PersonalTest\DA\obj\Debug\DA.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\DA\obj\Debug\DA.csprojAssemblyReference.cache
+C:\Test01\PersonalTest\DA\obj\Debug\DA.csproj.CoreCompileInputs.cache
+C:\Test01\PersonalTest\DA\obj\Debug\DA.csproj.CopyComplete
 C:\Test01\PersonalTest\DA\obj\Debug\DA.dll
 C:\Test01\PersonalTest\DA\obj\Debug\DA.pdb

@@ -10,18 +10,29 @@
 namespace DbFirst.Model
 {
     using System;
+    using System.Data;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
 
     public partial class StuAndCourseEntities : DbContext
     {
-        public StuAndCourseEntities(string name)
-            : base("StuAndCourseEntities")
+        public StuAndCourseEntities()
+            : this("StuAndCourseEntities")
         {
 
         }
+        public StuAndCourseEntities(string name)
+            : base(name)
+        {
+            //this.Configuration.LazyLoadingEnabled = false;
+
+            //this.Configuration.ProxyCreationEnabled = false;
+
+            //this.Database.Connection.StateChange += this.OnStateChange;
+
+        }
         //public StuAndCourseEntities()
-        //        : base("name=StuAndCourseEntities")
+        //        : base("name=StuAndCourseEntities")l
         //{
         //}
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -33,5 +44,57 @@ namespace DbFirst.Model
         public virtual DbSet<Courses> Courses { get; set; }
         public virtual DbSet<StuCousers> StuCousers { get; set; }
         public virtual DbSet<Students> Students { get; set; }
+        private static bool _ReadCommittedSnapshot { get; } = true;
+        private static bool _AllowSnapshotIsolation { get; } = true;
+        private const string CommandTextGetTransactionIsolationLevel = "select transaction_isolation_level from sys.dm_exec_sessions where session_id = @@spid";
+        private static System.Data.IsolationLevel _DefaultIsolationLevel { get; } = _AllowSnapshotIsolation ? IsolationLevel.Snapshot : IsolationLevel.ReadCommitted;
+
+        public string CommandTextSetTransactionIsolationLevel(System.Data.IsolationLevel isolationLevel)
+        {
+            switch (isolationLevel)
+            {
+                case System.Data.IsolationLevel.Unspecified:
+                    throw new ArgumentOutOfRangeException();
+
+                case System.Data.IsolationLevel.Chaos:
+                    throw new ArgumentOutOfRangeException();
+
+                case System.Data.IsolationLevel.ReadUncommitted:
+                    return "SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED";
+
+                case System.Data.IsolationLevel.ReadCommitted:
+                    return "SET TRANSACTION ISOLATION LEVEL READ COMMITTED";
+
+                case System.Data.IsolationLevel.RepeatableRead:
+                    return "SET TRANSACTION ISOLATION LEVEL REPEATABLE READ";
+
+                case System.Data.IsolationLevel.Serializable:
+                    return "SET TRANSACTION ISOLATION LEVEL SERIALIZABLE";
+
+                case System.Data.IsolationLevel.Snapshot:
+                    return "SET TRANSACTION ISOLATION LEVEL SNAPSHOT";
+
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+        public System.Data.IsolationLevel GetCurrentTransactionScopeDataIsolationLevel()
+        {
+            return DataUtil.GetCurrentTransactionDataIsolationLevel() ?? _DefaultIsolationLevel;
+        }
+        private void OnStateChange(object sender, StateChangeEventArgs args)
+        {
+            if (args.CurrentState == ConnectionState.Open && args.OriginalState != ConnectionState.Open)
+            {
+                using (var command = this.Database.Connection.CreateCommand())
+                {
+                    var isolationLevel = this.GetCurrentTransactionScopeDataIsolationLevel();
+                    string commandText = this.CommandTextSetTransactionIsolationLevel(isolationLevel);
+
+                    command.CommandText = commandText;
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

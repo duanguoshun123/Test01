@@ -14,7 +14,8 @@ namespace Manage
         public StudtentDA studentDA;
         public StudentManage(string dbName)
         {
-            studentDA = new StudtentDA("server =.; uid=sa;pwd=Miss20170129;database=" + dbName);
+            //studentDA = new StudtentDA("server =.; uid=sa;pwd=Miss20170129;database=" + dbName);
+            studentDA = new StudtentDA(@"metadata=res://*/Model.StudentAndCourses.csdl|res://*/Model.StudentAndCourses.ssdl|res://*/Model.StudentAndCourses.msl;provider=System.Data.SqlClient;provider connection string=""Data Source=.;initial catalog=" + dbName + @";persist security info=True;user id=sa;password=Miss20170129;MultipleActiveResultSets=True;App=EntityFramework""");
         }
         public bool AddStudents(Students stu)
         {

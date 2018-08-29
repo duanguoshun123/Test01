@@ -1,0 +1,11 @@
+C:\Test01\PersonalTest\MemcachedMonitor\bin\Debug\MemcachedMonitor.exe.config
+C:\Test01\PersonalTest\MemcachedMonitor\bin\Debug\MemcachedMonitor.exe
+C:\Test01\PersonalTest\MemcachedMonitor\bin\Debug\MemcachedMonitor.pdb
+C:\Test01\PersonalTest\MemcachedMonitor\bin\Debug\EnyimMemcachedHelper.dll
+C:\Test01\PersonalTest\MemcachedMonitor\bin\Debug\Enyim.Caching.dll
+C:\Test01\PersonalTest\MemcachedMonitor\bin\Debug\EnyimMemcachedHelper.pdb
+C:\Test01\PersonalTest\MemcachedMonitor\bin\Debug\Enyim.Caching.pdb
+C:\Test01\PersonalTest\MemcachedMonitor\bin\Debug\Enyim.Caching.xml
+C:\Test01\PersonalTest\MemcachedMonitor\obj\Debug\MemcachedMonitor.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\MemcachedMonitor\obj\Debug\MemcachedMonitor.exe
+C:\Test01\PersonalTest\MemcachedMonitor\obj\Debug\MemcachedMonitor.pdb

@@ -1,0 +1,7 @@
+C:\Test01\PersonalTest\NLogHelper\bin\Debug\NLog.config
+C:\Test01\PersonalTest\NLogHelper\bin\Debug\NLogHelper.dll
+C:\Test01\PersonalTest\NLogHelper\bin\Debug\NLogHelper.pdb
+C:\Test01\PersonalTest\NLogHelper\bin\Debug\NLog.dll
+C:\Test01\PersonalTest\NLogHelper\bin\Debug\NLog.xml
+C:\Test01\PersonalTest\NLogHelper\obj\Debug\NLogHelper.dll
+C:\Test01\PersonalTest\NLogHelper\obj\Debug\NLogHelper.pdb

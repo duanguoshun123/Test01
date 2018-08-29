@@ -1,0 +1,12 @@
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\CreateDataBaseBySql.exe.config
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\CreateDataBaseBySql.exe
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\CreateDataBaseBySql.pdb
+C:\Test01\PersonalTest\CreateDataBaseBySql\obj\Debug\CreateDataBaseBySql.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\CreateDataBaseBySql\obj\Debug\CreateDataBaseBySql.exe
+C:\Test01\PersonalTest\CreateDataBaseBySql\obj\Debug\CreateDataBaseBySql.pdb
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Test01\PersonalTest\CreateDataBaseBySql\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll

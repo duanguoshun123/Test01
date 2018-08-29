@@ -1,0 +1,11 @@
+C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\NLog.config
+C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\NLogApplicationTest.exe.config
+C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\NLogApplicationTest.exe
+C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\NLogApplicationTest.pdb
+C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\NLogHelper.dll
+C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\NLog.dll
+C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\NLogHelper.pdb
+C:\Test01\PersonalTest\NLogApplicationTest\bin\Debug\NLog.xml
+C:\Test01\PersonalTest\NLogApplicationTest\obj\Debug\NLogApplicationTest.csprojResolveAssemblyReference.cache
+C:\Test01\PersonalTest\NLogApplicationTest\obj\Debug\NLogApplicationTest.exe
+C:\Test01\PersonalTest\NLogApplicationTest\obj\Debug\NLogApplicationTest.pdb

@@ -4,23 +4,41 @@
         <name>WebApi</name>
     </assembly>
     <members>
-        <member name="M:WebApi.Controllers.HomeController.Get">
+        <member name="M:WebApi.Controllers.ProductController.Addproduct(WebApi.Models.Product)">
             <summary>
-            获取学生
+            添加用户
             </summary>
             <returns></returns>
         </member>
-        <member name="P:WebApi.Models.UserTest.UserId">
+        <member name="M:WebApi.Controllers.ProductController.GetByList">
+            <summary>
+            获取产品列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            获取产品列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.UserController.AddUser(WebApi.Models.User)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:WebApi.Models.User.UserId">
             <summary>
             用户ID
             </summary>
         </member>
-        <member name="P:WebApi.Models.UserTest.UserName">
+        <member name="P:WebApi.Models.User.UserName">
             <summary>
             用户名
             </summary>
         </member>
-        <member name="P:WebApi.Models.UserTest.Sex">
+        <member name="P:WebApi.Models.User.Sex">
             <summary>
             
             </summary>
